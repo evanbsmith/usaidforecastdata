@@ -21,6 +21,7 @@
     <link href="css/flat-ui.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/footable.core.min.css" rel="stylesheet">
 
     <link href="css/app.css" rel="stylesheet">
 
@@ -30,6 +31,13 @@
     <![endif]-->
   </head>
   <body style="height:100%;">
+    <div class="sizeTests">
+        <div class="sizeTest visible-xs">X-Small</div>
+        <div class="sizeTest visible-sm">Small</div>
+        <div class="sizeTest visible-md">Medim</div>
+        <div class="sizeTest visible-lg">Large</div>
+        <div class="sizeTest" id="pageWidth"></div>
+    </div>
     <div class="container" style="height:100%; padding:0;">
         <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-inner">
@@ -213,35 +221,38 @@
 
     <!-- assumes columns is an array of strings, need to change if its an object -->
     <script type="text/template" id="listViewTemplate">
-        <div class="row">
-            <div class="col-sm-11">
-                <h3>USAID Forecast Detail</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-11">
-                <table class="table-responsive">
-                    <thead>
-                        <tr>
-                            <% _.each(columns, function(col,i){ %>
-                                <th><%= col %></th>   
-                            <% }) %>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <% _.each(rows, function(row,i){ %>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table footable" data-page-navigation=".pagination" data-page-size="6">
+                        <thead>
                             <tr>
                                 <% _.each(columns, function(col,i){ %>
-                                    <td>
-                                        <%= row.attributes[col] %>
-                                    </td>
+                                    <th style="min-width:<%=col.minWidth %>" data-hide=<%= col.hide %> ><%= col.label %></th>   
                                 <% }) %>
                             </tr>
-                        <% }) %>
-                    </tbody>
-                    <tfoot>
-                    </tfoot>
-                </table>
+                        </thead>
+                        <tbody>
+                            <% _.each(rows, function(row,i){ %>
+                                <tr>
+                                    <% _.each(columns, function(col,i){ %>
+                                        <td>
+                                            <%= row.attributes[col.field] %>
+                                        </td>
+                                    <% }) %>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="8">
+                                    <div class="pagination pagination-centered hide-if-no-paging"></div>
+                                </td>
+                            </tr>
+
+                        </tfoot>
+                    </table>
+                </div>
             </div>
         </div>
 
@@ -261,18 +272,14 @@
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
 
-    <!-- Custom jQuery Plugin functions -->
-
-
     <!-- Load Other libraries -->
-    <!--<script type="text/javascript" src="js/protovis.min.js"></script>-->
+    <script src="js/footable.js"></script>
+    <script src="js/footable.sort.js"></script>
+    <script src="js/footable.paginate.js"></script>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
     <script src="js/d3.tip.js"></script>
     <script src="js/d3-bootstrap.min.js"></script>
     <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
-
- <!--   <script type="text/template" id="item-template"></script>
-    <script type="text/template" id="stats-template"></script> -->
     
     <!-- Load Backbone core and Backbone Models, Collections, Views, Routers --> 
 

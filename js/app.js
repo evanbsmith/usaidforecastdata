@@ -1,3 +1,8 @@
+$('#pageWidth').text("Width: " + $(window).width());
+$(window).on('resize', function(){
+  $('#pageWidth').text("Width: " + $(window).width());
+});
+
 var toSectorLong = function(sector){
     switch(sector){
       case "dg":
