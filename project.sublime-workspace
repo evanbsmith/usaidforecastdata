@@ -1,0 +1,1015 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"style",
+				"styleSingleLayer"
+			],
+			[
+				"update",
+				"updateMapView"
+			],
+			[
+				"tableH",
+				"tableHeadRow"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"fore",
+				"foreCastDataCurrent"
+			],
+			[
+				"hide",
+				"hide"
+			],
+			[
+				"country",
+				"country_code"
+			],
+			[
+				"geoJ",
+				"geojsonLayer"
+			],
+			[
+				"slider",
+				"sliderValues"
+			],
+			[
+				"feature",
+				"feature"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"countr",
+				"countrySummary"
+			],
+			[
+				"my",
+				"myTags"
+			],
+			[
+				"countries",
+				"countries"
+			],
+			[
+				"map",
+				"map_location"
+			],
+			[
+				"distinc",
+				"distinctTest"
+			],
+			[
+				"forecas",
+				"forecastData"
+			],
+			[
+				"foreca",
+				"forecastData"
+			],
+			[
+				"popup",
+				"popup-wrapper"
+			],
+			[
+				"sec",
+				"sectorToggle"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"text",
+				"textAlign"
+			],
+			[
+				"ga",
+				"gapPercent"
+			],
+			[
+				"normal",
+				"normal"
+			],
+			[
+				"yM",
+				"yMaxProjects"
+			],
+			[
+				"temp",
+				"tempArray"
+			],
+			[
+				"doll",
+				"dollarsNorm"
+			],
+			[
+				"proj",
+				"projectsNorm"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"new",
+				"newData"
+			],
+			[
+				"ord",
+				"ordScale"
+			],
+			[
+				"graph",
+				"graphAreaWidth"
+			],
+			[
+				"bar",
+				"barWidth"
+			],
+			[
+				"region",
+				"region"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"right",
+				"rightLabelWidth"
+			],
+			[
+				"data",
+				"dataArray"
+			],
+			[
+				"summa",
+				"summaryData"
+			],
+			[
+				"sect",
+				"sectorTotals2"
+			],
+			[
+				"secto",
+				"sectorTotals"
+			],
+			[
+				"val",
+				"valueSums"
+			],
+			[
+				"pro",
+				"projectCounts"
+			],
+			[
+				"return",
+				"returnObj"
+			],
+			[
+				"value",
+				"valueSum"
+			],
+			[
+				"chroma",
+				"chromaColors"
+			],
+			[
+				"ove",
+				"overviewLayer"
+			],
+			[
+				"base",
+				"baseLayer"
+			],
+			[
+				"overview",
+				"overviewLayer"
+			],
+			[
+				"over",
+				"overviewLayer"
+			],
+			[
+				"top",
+				"topLabelHeight"
+			],
+			[
+				"bott",
+				"bottomLabelHeight"
+			],
+			[
+				"pane",
+				"panelHeight"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"box-",
+				"box-title"
+			],
+			[
+				"out",
+				"outerHeight"
+			],
+			[
+				"box",
+				"boxWidth"
+			],
+			[
+				"title",
+				"titleHeight"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"tem",
+				"temp2H"
+			],
+			[
+				"ou",
+				"outerHeight"
+			],
+			[
+				"sibl",
+				"siblingHPlus"
+			],
+			[
+				"si",
+				"siblingHPlus"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/index.html",
+			"settings":
+			{
+				"buffer_size": 21125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
+			"settings":
+			{
+				"buffer_size": 15893,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 15092,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "underscore-table-test.js",
+			"settings":
+			{
+				"buffer_size": 793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/list-view.js",
+			"settings":
+			{
+				"buffer_size": 808,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/map-chart-view.js",
+			"settings":
+			{
+				"buffer_size": 11811,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/filter-view.js",
+			"settings":
+			{
+				"buffer_size": 3363,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/map-view.js",
+			"settings":
+			{
+				"buffer_size": 1940,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/collections/forecast-list.js",
+			"settings":
+			{
+				"buffer_size": 5808,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/routers/router.js",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/nav-view.js",
+			"settings":
+			{
+				"buffer_size": 341,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/app.css",
+			"settings":
+			{
+				"buffer_size": 1947,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/backbone.table.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/css/flat-ui.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/bootstrap/css/bootstrap.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/nav-view",
+		"/C/Users/esmith/usaidforecastdata/README",
+		"/C/Program Files (x86)/OpenSSH/etc/passwd",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/font-awesome/css/font-awesome.min.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/index.html",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/filter-view.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-view.js",
+		"//di-primary-01/redirect/esmith/Desktop/font-awesome/css/font-awesome.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/routers/router.js",
+		"/C/Users/esmith/Documents/MapBox/project/forecast-base-borders/project.mml",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/bootstrap/css/bootstrap-docs.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/data/ne-countries-50m.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/ne-countries-50m.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/visRender.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/css/styles.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/css/foundation.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/css/dataTables.foundation.css",
+		"//di-primary-01/redirect/esmith/Desktop/surveydata.json",
+		"/C/Users/esmith/Dropbox/Websites/Resources/Flat UI HTML - Personal License/HTML/UI/js/application.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/Flat UI HTML - Personal License/HTML/UI/css/flat-ui.css",
+		"/C/Users/esmith/Dropbox/Websites/Resources/Flat UI HTML - Personal License/HTML/UI/README.md",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/map-oldmapbox.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/map-newmapbox.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/mapbox.jquery.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/tag-it-master/prototype.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/countries_50m.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/Flat UI HTML - Personal License/HTML/UI/js/jquery.tagsinput.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/countries.js",
+		"//di-primary-01/redirect/esmith/Desktop/countries.geo.json",
+		"/C/Users/esmith/Documents/MapBox/project/forecast-base/project.mml",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/mapboxupdate.js",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/index.html",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/css/styles.css",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/funmap.html",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/austin.html",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/scripts/jquery.orbit-1.2.3.js",
+		"//di-primary-01/redirect/esmith/Desktop/jquery.orbit-1.2.3.js",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/source/jquery.fancybox.js",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/scripts/leaflet.fullscreen.js",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/scripts/leaflet.geolocate.js",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/scripts/jquery.fancybox.pack.js",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/registry.html",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/hotels.html",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/Online/event.html",
+		"/C/Users/esmith/Dropbox/Websites/Resources/foundation-4.2.1.custom/js/foundation/foundation.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/foundation-4.2.1.custom/index.html",
+		"/C/Users/esmith/Dropbox/Websites/Resources/foundation-4.2.1.custom/css/foundation.css",
+		"/C/Users/esmith/Dropbox/Websites/Resources/foundation-4.2.1.custom/js/foundation/foundation.orbit.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/foundation-4.1.3/index.html",
+		"/C/Users/esmith/Dropbox/Websites/Wedding Site/index.html",
+		"/C/Users/esmith/Dropbox/Websites/Map Layer test/index.html",
+		"//di-primary-01/redirect/esmith/Desktop/survey site/data.json",
+		"//di-primary-01/Redirect/esmith/Downloads/mapbox.js-1/mapbox.js-1/src/grid_control.js",
+		"//di-primary-01/Redirect/esmith/Downloads/mapbox.js-1/mapbox.js-1/src/grid.js",
+		"//di-primary-01/Redirect/esmith/Downloads/mapbox.js-1/mapbox.js-1/src/tile_layer.js",
+		"//di-primary-01/Redirect/esmith/Downloads/mapbox.js-1/mapbox.js-1/src/util.js",
+		"//di-primary-01/Redirect/esmith/Downloads/mapbox.js-1/mapbox.js-1/src/config.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/jquery.tipsy.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/pv.tipsy.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/css/tipsy.css",
+		"/C/Users/esmith/Dropbox/Websites/Map Layer test/countries.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/tipsy-master/src/javascripts/jquery.tipsy.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/foundation-4.1.3/js/foundation/foundation.tooltips.js",
+		"//di-primary-01/redirect/esmith/Desktop/barchartfunction-backup",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/css/normalize.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/bigtext.js",
+		"/C/Users/esmith/Documents/MapBox/project/forecast-live-borders/project.mml",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Dashboard-original/index.html",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/visRender.js",
+		"/C/Users/esmith/Dropbox/Websites/Resources/BigText/demo/index.html",
+		"/C/Users/esmith/Dropbox/Websites/Resources/BigText/demo/resizeDemoSmartResize.html",
+		"/C/Users/esmith/Dropbox/Websites/Resources/BigText/demo/resizeDemoThrottle.html",
+		"/C/Users/esmith/Dropbox/Websites/Resources/BigText/demo/simpleDemo.html",
+		"/C/Users/esmith/Dropbox/Websites/Resources/BigText/demo/simpleDemoDiv.html",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast (Foundation)/js/mapbox.jquery.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast (Foundation)/js/script.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast (Foundation)/css/foundation.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast (Foundation)/css/styles.css",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast (Foundation)/index.html",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Dashboard-Foundation/assets/scss/app.scss",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Dashboard-Foundation/templates/index.liquid",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Dashboard-Foundation/templates/includes/scripts.liquid",
+		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Dashboard-Foundation/assets/css/app.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"focus",
+			"fade",
+			");\n",
+			"icon",
+			"icon-spin",
+			"console.log",
+			"console",
+			"trigger",
+			"table",
+			"slider",
+			"UpdateListVIew",
+			"console.log",
+			"console.log(",
+			"map",
+			"console.log",
+			"resize",
+			"h4",
+			"images",
+			"a",
+			"console",
+			"updateMapView",
+			"currentCountryLayer",
+			"console.log",
+			"geojsonObj",
+			"updateMapVIew",
+			"updateMap",
+			"countryDataPull",
+			"xScale",
+			"scale",
+			"filterDefaults",
+			"filterOptions",
+			"datesList",
+			"dates",
+			"filterDefaults",
+			"sort",
+			"forEach",
+			"map",
+			"Date",
+			"date",
+			"distinct",
+			"browser",
+			"console.log",
+			"distinct",
+			"sort",
+			"map-new",
+			"aboutModal",
+			"forecastData",
+			"console",
+			"console.log",
+			"foundation",
+			"myan",
+			"mapbox.css",
+			"mapboxupdate",
+			"width",
+			"cheatsheet",
+			"column-one",
+			"map",
+			"main",
+			"great",
+			"registry",
+			"border",
+			"registry",
+			"test-box",
+			"hover",
+			"banner",
+			"container",
+			"width",
+			"img",
+			"_slide",
+			"1",
+			"1px",
+			"orbit",
+			"wrappe",
+			"%;\n",
+			"popup",
+			"clearfix",
+			"popup",
+			"85%",
+			"neighborhoods",
+			"mapboxupdate",
+			"tipsy",
+			"console.log",
+			"d",
+			"pos",
+			"width",
+			"fixTitle",
+			"showOrCreateTip",
+			"tooltips",
+			"console",
+			"console.log",
+			"yMaxProjects",
+			"console.log",
+			"visible",
+			"barGap",
+			"yScale",
+			"console",
+			"roundUp",
+			"chroma",
+			"media",
+			"console",
+			"forecastData",
+			"foreach",
+			"h3",
+			"visCanvas",
+			"border",
+			"font-family",
+			"media",
+			"h3",
+			"outter",
+			"media",
+			"@media",
+			"font-size",
+			"font",
+			"console",
+			"chroma",
+			"2",
+			"console",
+			"roundUp",
+			"regionTotals",
+			"w",
+			"region",
+			"minFontSizes",
+			"testLineDimensions",
+			"STYLE_ID",
+			"bindResize",
+			"generateStyleTag",
+			"switchLayer",
+			"switch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/index.html",
+					"settings":
+					{
+						"buffer_size": 21125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1760.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
+					"settings":
+					{
+						"buffer_size": 15893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14284,
+								14466
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 460.0,
+						"translation.y": 9546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 15092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13124,
+								13124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "underscore-table-test.js",
+					"settings":
+					{
+						"buffer_size": 793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/views/list-view.js",
+					"settings":
+					{
+						"buffer_size": 808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/views/map-chart-view.js",
+					"settings":
+					{
+						"buffer_size": 11811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/views/filter-view.js",
+					"settings":
+					{
+						"buffer_size": 3363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/views/map-view.js",
+					"settings":
+					{
+						"buffer_size": 1940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1925,
+								1925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1000.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/collections/forecast-list.js",
+					"settings":
+					{
+						"buffer_size": 5808,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/routers/router.js",
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								548,
+								548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "js/views/nav-view.js",
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/app.css",
+					"settings":
+					{
+						"buffer_size": 1947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 320.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true
+}

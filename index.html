@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%;">
+  <head>
+    <meta charset="utf-8">
+    <title>USAID Forecast Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Other Libraries -->
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+    <!--[if lte IE 8]>
+    <link href='//api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' />
+    <![endif]-->
+
+    <!-- Loading Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link href="css/app.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body style="height:100%;">
+    <div class="container" style="height:100%; padding:0;">
+        <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-inner">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">USAID Forecast Data</a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><i class="icon-globe"></i><span class="fontawesome-padding-left">Map</span></a></li>
+                        <li><a href="#list"><i class="icon-sort-by-attributes-alt"></i><span class="fontawesome-padding-left">List</span></a></li>
+                        <li><a href="#filter"><i class="icon-filter"></i><span class="fontawesome-padding-left">Filter</span></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="icon-info-sign"></i><span class="fontawesome-padding-left">About</span></a></li>
+                        <li><a href="#"><i class="icon-cloud-download"></i><span class="fontawesome-padding-left">Data</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="full-screen">
+            <div id="listView" class="fade">
+            </div>
+            <div id="mapView">
+            </div>
+            <div id="mapChartView" class="row">
+                <div class="col-sm-10 col-sm-offset-1 panel panel-default">
+                    <div class="row panel-body">
+                        <div class="col-sm-4" id="statsBox"><h4>Summary</h4></div>
+                        <div class="col-sm-4" id="chartBox1"><h4>Regions</h4></div>
+                        <div class="col-sm-4" id="chartBox2"><h4>Sectors</h4>
+                            <div id="sectorToggle">
+                                <span class="label label-primary active" data-chart="count"><a href="#">Projects</a></span>
+                                <span class="label label-default" data-chart="dollars"><a href="#">Dollars</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        
+
+    </div><!-- /.container -->
+    
+
+    
+
+    <div class="modal fade" id="filterModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Filters</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="filters" action="#">
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div id="sectorOptions">
+                                        <legend>Sectors</legend>
+                                        <label class="checkbox" for="sector1">
+                                            <input type="checkbox" name="sectorOptions" id="sector1" value="ag" data-toggle="checkbox">
+                                            Agriculture
+                                        </label>
+                                        <label class="checkbox" for="sector2">
+                                            <input type="checkbox" name="sectorOptions" id="sector2" value="cr" data-toggle="checkbox">
+                                            Conflict
+                                        </label>
+                                        <label class="checkbox" for="sector3">
+                                            <input type="checkbox" name="sectorOptions" id="sector3" value="dg" data-toggle="checkbox">
+                                            Dem., Rights, Gov.
+                                        </label>
+                                        <label class="checkbox" for="sector4">
+                                            <input type="checkbox" name="sectorOptions" id="sector4" value="eg" data-toggle="checkbox">
+                                            Economic Growth
+                                        </label>
+                                        <label class="checkbox" for="sector5">
+                                            <input type="checkbox" name="sectorOptions" id="sector5" value="ed" data-toggle="checkbox">
+                                            Education
+                                        </label>
+                                        <label class="checkbox" for="sector6">
+                                            <input type="checkbox" name="sectorOptions" id="sector6" value="en" data-toggle="checkbox">
+                                            Environment
+                                        </label>
+                                        <label class="checkbox" for="sector7">
+                                            <input type="checkbox" name="sectorOptions" id="sector7" value="ge" data-toggle="checkbox">
+                                            Gender
+                                        </label>
+                                        <label class="checkbox" for="sector8">
+                                            <input type="checkbox" name="sectorOptions" id="sector8" value="gh" data-toggle="checkbox">
+                                            Health
+                                        </label>
+                                        <label class="checkbox" for="sector9">
+                                            <input type="checkbox" name="sectorOptions" id="sector9" value="ws" data-toggle="checkbox">
+                                            Water
+                                        </label>
+                                        <label class="checkbox" for="sector10">
+                                            <input type="checkbox" name="sectorOptions" id="sector10" value="ot" data-toggle="checkbox">
+                                            Other
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div id="regionOptions">
+                                        <legend>Regions</legend>
+                                        <label class="checkbox" for="region1">
+                                            <input type="checkbox" name="regionOptions" id="region1" value="Africa" data-toggle="checkbox">
+                                            Africa
+                                        </label>
+                                        <label class="checkbox" for="region2">
+                                            <input type="checkbox" name="regionOptions" id="region2" value="Asia" data-toggle="checkbox">
+                                            Asia
+                                        </label>
+                                        <label class="checkbox" for="region3">
+                                            <input type="checkbox" name="regionOptions" id="region3" value="E&E" data-toggle="checkbox">
+                                            Europe & Eurasia
+                                        </label>
+                                        <label class="checkbox" for="region4">
+                                            <input type="checkbox" name="regionOptions" id="region4" value="LAC" data-toggle="checkbox">
+                                            Latin Am. & Carribean
+                                        </label>
+                                        <label class="checkbox" for="region5">
+                                            <input type="checkbox" name="regionOptions" id="region5" value="ME" data-toggle="checkbox">
+                                            Middle East
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <legend>Countries</legend>
+                                            <input id="filterCountries" class="form-control tagsInput" type="text">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <legend>Timeframe</legend>
+                                            <div id="filterSlider" class="ui-slider">
+                                                <span class="ui-slider-value first"></span>
+                                                <span class="ui-slider-value last"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="filterClear" type="button" class="btn btn-large btn-default" >Clear</button>
+                    <button id="filterSubmit" type="button" class="btn btn-large btn-primary"><span class="fontawesome-padding-right">Submit</span><i class="icon-refresh"></i></button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script type="text/template" id="mapChartStatsTemplate">
+        <h4>Summary</h4>
+        <div class="stat">
+            <span class="stat-value"><%= count %></span>
+            <span class="stat-name">Opportunities</span>
+        </div>
+        <div class="stat">
+            <span class="stat-value"><%= value %></span>
+            <span class="stat-name">Total Value</span>
+        </div>
+        <div class="stat">
+            <span class="stat-value"><%= average %></span>
+            <span class="stat-name">Average Value</span>
+        </div>
+    </script>
+
+    <!-- assumes columns is an array of strings, need to change if its an object -->
+    <script type="text/template" id="listViewTemplate">
+        <div class="row">
+            <div class="col-sm-11">
+                <h3>USAID Forecast Detail</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-11">
+                <table class="table-responsive">
+                    <thead>
+                        <tr>
+                            <% _.each(columns, function(col,i){ %>
+                                <th><%= col %></th>   
+                            <% }) %>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% _.each(rows, function(row,i){ %>
+                            <tr>
+                                <% _.each(columns, function(col,i){ %>
+                                    <td>
+                                        <%= row.attributes[col] %>
+                                    </td>
+                                <% }) %>
+                            </tr>
+                        <% }) %>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </script>
+
+
+    <!-- Load FlatUI JS =============================-->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+
+    <!-- Custom jQuery Plugin functions -->
+
+
+    <!-- Load Other libraries -->
+    <!--<script type="text/javascript" src="js/protovis.min.js"></script>-->
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/d3.tip.js"></script>
+    <script src="js/d3-bootstrap.min.js"></script>
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+
+ <!--   <script type="text/template" id="item-template"></script>
+    <script type="text/template" id="stats-template"></script> -->
+    
+    <!-- Load Backbone core and Backbone Models, Collections, Views, Routers --> 
+
+    <script src="js/lib/underscore-min.js"></script>
+    <script src="js/lib/backbone-min.js"></script>
+    <script src="js/data/ne-countries-50m.js"></script>
+    <script src="js/models/forecast-item.js"></script>
+    <script src="js/collections/forecast-list.js"></script>
+    <script src="js/views/filter-view.js"></script>
+    <script src="js/views/map-view.js"></script>
+    <script src="js/views/map-chart-view.js"></script>
+    <script src="js/views/list-view.js"></script>
+    <script src="js/views/nav-view.js"></script>
+    <script src="js/routers/router.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
