@@ -272,7 +272,7 @@
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/index.html",
 			"settings":
 			{
 				"buffer_size": 15092,
@@ -280,7 +280,7 @@
 			}
 		},
 		{
-			"file": "underscore-table-test.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/underscore-table-test.js",
 			"settings":
 			{
 				"buffer_size": 793,
@@ -288,7 +288,7 @@
 			}
 		},
 		{
-			"file": "js/views/list-view.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/list-view.js",
 			"settings":
 			{
 				"buffer_size": 808,
@@ -296,7 +296,7 @@
 			}
 		},
 		{
-			"file": "js/views/map-chart-view.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-chart-view.js",
 			"settings":
 			{
 				"buffer_size": 11811,
@@ -304,7 +304,7 @@
 			}
 		},
 		{
-			"file": "js/views/filter-view.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/filter-view.js",
 			"settings":
 			{
 				"buffer_size": 3363,
@@ -312,7 +312,7 @@
 			}
 		},
 		{
-			"file": "js/views/map-view.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-view.js",
 			"settings":
 			{
 				"buffer_size": 1940,
@@ -320,7 +320,7 @@
 			}
 		},
 		{
-			"file": "js/collections/forecast-list.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/collections/forecast-list.js",
 			"settings":
 			{
 				"buffer_size": 5808,
@@ -328,7 +328,7 @@
 			}
 		},
 		{
-			"file": "js/routers/router.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/routers/router.js",
 			"settings":
 			{
 				"buffer_size": 614,
@@ -336,7 +336,7 @@
 			}
 		},
 		{
-			"file": "js/views/nav-view.js",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/nav-view.js",
 			"settings":
 			{
 				"buffer_size": 341,
@@ -344,7 +344,7 @@
 			}
 		},
 		{
-			"file": "css/app.css",
+			"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/css/app.css",
 			"settings":
 			{
 				"buffer_size": 1947,
@@ -684,7 +684,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "index.html",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/index.html",
 					"settings":
 					{
 						"buffer_size": 15092,
@@ -705,14 +705,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2280.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "underscore-table-test.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/underscore-table-test.js",
 					"settings":
 					{
 						"buffer_size": 793,
@@ -728,7 +728,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -738,7 +739,7 @@
 				},
 				{
 					"buffer": 4,
-					"file": "js/views/list-view.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/list-view.js",
 					"settings":
 					{
 						"buffer_size": 808,
@@ -765,7 +766,7 @@
 				},
 				{
 					"buffer": 5,
-					"file": "js/views/map-chart-view.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-chart-view.js",
 					"settings":
 					{
 						"buffer_size": 11811,
@@ -792,7 +793,7 @@
 				},
 				{
 					"buffer": 6,
-					"file": "js/views/filter-view.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/filter-view.js",
 					"settings":
 					{
 						"buffer_size": 3363,
@@ -819,7 +820,7 @@
 				},
 				{
 					"buffer": 7,
-					"file": "js/views/map-view.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-view.js",
 					"settings":
 					{
 						"buffer_size": 1940,
@@ -846,7 +847,7 @@
 				},
 				{
 					"buffer": 8,
-					"file": "js/collections/forecast-list.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/collections/forecast-list.js",
 					"settings":
 					{
 						"buffer_size": 5808,
@@ -873,7 +874,7 @@
 				},
 				{
 					"buffer": 9,
-					"file": "js/routers/router.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/routers/router.js",
 					"settings":
 					{
 						"buffer_size": 614,
@@ -900,7 +901,7 @@
 				},
 				{
 					"buffer": 10,
-					"file": "js/views/nav-view.js",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/nav-view.js",
 					"settings":
 					{
 						"buffer_size": 341,
@@ -916,7 +917,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -926,7 +928,7 @@
 				},
 				{
 					"buffer": 11,
-					"file": "css/app.css",
+					"file": "/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/css/app.css",
 					"settings":
 					{
 						"buffer_size": 1947,
