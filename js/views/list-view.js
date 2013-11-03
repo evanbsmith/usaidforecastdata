@@ -27,12 +27,6 @@ app.ListView = Backbone.View.extend({
 				hide: ""
 			},
 			{
-				field:"region_long",
-				label: "Region",
-				minWidth: "67px",
-				hide: ""
-			},
-			{
 				field:"award_title",
 				label: "Award Title",
 				minWidth: "99px",
@@ -42,7 +36,7 @@ app.ListView = Backbone.View.extend({
 				field:"award_description",
 				label: "Description",
 				minWidth: "97px",
-				hide: "all"
+				hide: "xs,sm,md,lg"
 			},
 			{
 				field:"partner_incumbent",
@@ -66,6 +60,12 @@ app.ListView = Backbone.View.extend({
 				field:"usaid_sector_long",
 				label: "Sector",
 				minWidth: "70px",
+				hide: ""
+			},
+			{
+				field:"region_long",
+				label: "Region",
+				minWidth: "67px",
 				hide: ""
 			},
 			{
