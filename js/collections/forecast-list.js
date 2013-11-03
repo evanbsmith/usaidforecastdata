@@ -160,7 +160,7 @@ app.ForecastList = Backbone.Collection.extend({
 				temp[i] = _.find(filters[key],function(filter){
 					return filter === item.get(key);
 				});
-				console.log("Process!");
+				// console.log("Process!");
 			}
 			if(_.compact(temp).length === filterFields.length){
 				item.set("active", true);
