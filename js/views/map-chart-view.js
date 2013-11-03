@@ -60,7 +60,7 @@ app.MapChartView = Backbone.View.extend({
         	.attr("cy",-5)
         	.attr("cx",function(d,i){ return i*75;})
         	.attr("r","0.4em")
-        	.style("fill",function(d) { console.log(colors(d)); return colors(d);})
+        	.style("fill",function(d) {return colors(d);})
 	},
 
 	getTooltipData: function(d,i){
@@ -195,7 +195,7 @@ app.MapChartView = Backbone.View.extend({
 	addSectorChart: function(){
 		this.$sectorContainer = this.$el.parent().find('#chartBox2');
 
-		var margin = {top:10, right:40, bottom:30, left:60},
+		var margin = {top:10, right:52, bottom:30, left:60},
 			width = this.$sectorContainer.width() - margin.left - margin.right,
 			height = this.$sectorContainer.height() - this.$sectorContainer.find('h4').outerHeight(true) - margin.top - margin.bottom;
 
