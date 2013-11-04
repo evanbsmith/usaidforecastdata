@@ -42,7 +42,7 @@ app.MapView = Backbone.View.extend({
 		return {
 			weight: 1,
 			opacity: 1,
-			color: '#555561',
+			color: '#4d4d4d',
 			fillOpacity: 0,
 			fillColor:  'none'
 		};

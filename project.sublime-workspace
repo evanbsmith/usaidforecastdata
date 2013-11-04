@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"lay",
+				"layerZero"
+			],
+			[
+				"update",
+				"updateIndex"
+			],
+			[
+				"country",
+				"countryIndex"
+			],
+			[
+				"countr",
+				"countryLayer"
+			],
+			[
 				"ind",
 				"indicator"
 			],
@@ -18,10 +34,6 @@
 			[
 				"style",
 				"styleSingleLayer"
-			],
-			[
-				"update",
-				"updateMapView"
 			],
 			[
 				"tableH",
@@ -40,10 +52,6 @@
 				"hide"
 			],
 			[
-				"country",
-				"country_code"
-			],
-			[
 				"geoJ",
 				"geojsonLayer"
 			],
@@ -58,10 +66,6 @@
 			[
 				"pre",
 				"preventDefault"
-			],
-			[
-				"countr",
-				"countrySummary"
 			],
 			[
 				"my",
@@ -276,82 +280,10 @@
 			}
 		},
 		{
-			"file": "js/views/list-view.js",
-			"settings":
-			{
-				"buffer_size": 1924,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
-			"settings":
-			{
-				"buffer_size": 15893,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "font-awesome/css/font-awesome.css",
-			"settings":
-			{
-				"buffer_size": 27232,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/flat-ui.css",
-			"settings":
-			{
-				"buffer_size": 113904,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 2243,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/footable.js",
-			"settings":
-			{
-				"buffer_size": 36510,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/footable.paginate.js",
-			"settings":
-			{
-				"buffer_size": 8484,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 121260,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/routers/router.js",
-			"settings":
-			{
-				"buffer_size": 614,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "js/views/map-view.js",
 			"settings":
 			{
-				"buffer_size": 4057,
+				"buffer_size": 3535,
 				"line_ending": "Windows"
 			}
 		},
@@ -359,7 +291,7 @@
 			"file": "css/app.css",
 			"settings":
 			{
-				"buffer_size": 2683,
+				"buffer_size": 2330,
 				"line_ending": "Windows"
 			}
 		},
@@ -375,7 +307,23 @@
 			"file": "js/views/map-chart-view.js",
 			"settings":
 			{
-				"buffer_size": 11811,
+				"buffer_size": 11786,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/collections/forecast-list.js",
+			"settings":
+			{
+				"buffer_size": 5811,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/routers/router.js",
+			"settings":
+			{
+				"buffer_size": 614,
 				"line_ending": "Windows"
 			}
 		}
@@ -404,6 +352,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/routers/router.js",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/views/list-view.js",
+		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/font-awesome/css/font-awesome.css",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/css/flat-ui.css",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/app.js",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/bootstrap/css/bootstrap.css",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/footable.js",
+		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/footable.paginate.js",
 		"/C/Users/esmith/Dropbox/Websites/Leaflet.D3-master/Leaflet.D3-master/index.html",
 		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/data/ne-countries-50m.js",
 		"/C/Users/esmith/Dropbox/Websites/github-repos/usaidforecastdata/js/footable.sort.js",
@@ -416,7 +373,6 @@
 		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/collections/forecast-list.js",
 		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-view.js",
 		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/filter-view.js",
-		"/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
 		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/index.html",
 		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/js/views/map-chart-view.js",
 		"/C/Users/esmith/Dropbox/Websites/USAID Forecast Data (Bootstrap and Backbone)/underscore-table-test.js",
@@ -522,6 +478,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console.",
+			"getColor",
+			"getStyle",
 			"map",
 			"success",
 			"center",
@@ -646,10 +605,7 @@
 			"2",
 			"console",
 			"roundUp",
-			"regionTotals",
-			"w",
-			"region",
-			"minFontSizes"
+			"regionTotals"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -667,7 +623,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -682,8 +638,8 @@
 						"selection":
 						[
 							[
-								12587,
-								12587
+								14966,
+								14966
 							]
 						],
 						"settings":
@@ -693,25 +649,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4269.0,
+						"translation.y": 5874.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/views/list-view.js",
+					"file": "js/views/map-view.js",
 					"settings":
 					{
-						"buffer_size": 1924,
+						"buffer_size": 3535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								783,
-								783
+								1125,
+								1125
 							]
 						],
 						"settings":
@@ -720,274 +676,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 520.0,
+						"translation.y": 342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/esmith/Dropbox/Websites/USAID-Forecast-new/js/script.js",
-					"settings":
-					{
-						"buffer_size": 15893,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15691,
-								15711
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 10540.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "font-awesome/css/font-awesome.css",
-					"settings":
-					{
-						"buffer_size": 27232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19200,
-								19204
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/flat-ui.css",
-					"settings":
-					{
-						"buffer_size": 113904,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54415,
-								54422
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 49562.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/app.js",
-					"settings":
-					{
-						"buffer_size": 2243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/footable.js",
-					"settings":
-					{
-						"buffer_size": 36510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19190,
-								19190
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2620.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/footable.paginate.js",
-					"settings":
-					{
-						"buffer_size": 8484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6857,
-								6857
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 18.0,
-						"translation.y": 2600.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "bootstrap/css/bootstrap.css",
-					"settings":
-					{
-						"buffer_size": 121260,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107657,
-								107663
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 122062.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "js/routers/router.js",
-					"settings":
-					{
-						"buffer_size": 614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								369,
-								369
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "js/views/map-view.js",
-					"settings":
-					{
-						"buffer_size": 4057,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3912,
-								3833
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2000.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
 					"file": "css/app.css",
 					"settings":
 					{
-						"buffer_size": 2683,
+						"buffer_size": 2330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2680,
-								2680
+								2328,
+								2328
 							]
 						],
 						"settings":
@@ -995,17 +702,98 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2597.0,
+						"translation.y": 1640.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 3,
 					"file": "js/views/filter-view.js",
 					"settings":
 					{
 						"buffer_size": 3363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/views/map-chart-view.js",
+					"settings":
+					{
+						"buffer_size": 11786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2104,
+								2104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 962.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/collections/forecast-list.js",
+					"settings":
+					{
+						"buffer_size": 5811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5457,
+								5457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 117.0,
+						"translation.y": 2822.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/routers/router.js",
+					"settings":
+					{
+						"buffer_size": 614,
 						"regions":
 						{
 						},
@@ -1022,34 +810,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "js/views/map-chart-view.js",
-					"settings":
-					{
-						"buffer_size": 11811,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6476,
-								6476
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6480.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
