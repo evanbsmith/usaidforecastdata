@@ -16,3 +16,10 @@ I am always looking for feedback or suggestions on how to improve the site or ne
 
 ## Disclaimer
 The information presented is not official and this project/site does not claim to represent the views of USAID or the U.S. Government in any capacity. Further, the data used and presented here reflects a number of decisions, including classifying opportuniries by including sector and region, that merely represent my best attempt at categorizing the opportunities presented in the forecast in a meaningful way or otherwise cleaning up the data for presentation.
+
+## TODO
+
+1. Move to TopoJSON from geoJSON to improve map performance
+2. Overhaul site styling
+3. Add "About" and "Data" pages
+4. Design and add "Trends" page 
