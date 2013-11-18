@@ -76,7 +76,6 @@ app.ListView = Backbone.View.extend({
 			}
 		];
 		var rows = this.collection.where({active: true});
-		console.log(rows);
 
 		this.$el.html(this.template({
 			columns: columns,
@@ -94,9 +93,6 @@ app.ListView = Backbone.View.extend({
 				toggle: 'icon-plus'
 			}
 		});
-	},
-	test: function(){
-		console.log("listViewCall heard");
 	},
 	visible: function(){
 		this.$el.css('display', 'block').addClass('in');
