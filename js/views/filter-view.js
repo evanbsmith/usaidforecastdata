@@ -7,11 +7,13 @@ app.FilterView = Backbone.View.extend({
 		_.bindAll(this, 'closeFilterModal');
 		this.listenTo(this.collection,'sync',this.loadFilters);
 		this.$el.on('hide.bs.modal', function(){
-			router.navigate("",{
+			console.log('current route');
+			console.log(router.routes[Backbone.history.fragment]);
+			router.navigate(router.previousRoute,{
 				trigger: true
 			});
 		});
-		this.listenTo(this.collection,'mapUpdated',function(){
+		this.listenTo(this.collection,'filtered',function(){
 			var timeoutID = window.setTimeout(this.closeFilterModal,600);
 		});
 		this.$el.find('#filterSubmit').button();
@@ -71,7 +73,8 @@ app.FilterView = Backbone.View.extend({
 			filterData.region[i] = $(el).val();
 		});
 		this.$el.find('#filterCountries_tagsinput span.tag').each(function(i,el){
-			filterData.map_location[i] = $(el).text().replace(/\s+/g,'');
+			var text = $(el).text();
+			filterData.map_location[i] = text.substring(0,text.length - 2);
 		});
 
 		var datesArray = this.collection.listDates();

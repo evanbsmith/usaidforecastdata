@@ -1,6 +1,11 @@
 var app = app || {};
 
 app.Router = Backbone.Router.extend({
+	initialize: function(){
+		this.currentRoute = '';
+		this.previousRoute = '';
+		this.on('route',this.updatePrevious);
+	},
 	routes: {
 		'filter' : 'openFilterModal',
 		'list' : 'toggleListView',
@@ -19,6 +24,10 @@ app.Router = Backbone.Router.extend({
 	toggleListView: function(){
 		console.log("List route");
 		listView.visible();
+	},
+	updatePrevious: function(){
+		this.previousRoute = this.currentRoute;
+		this.currentRoute = this.routes[Backbone.history.fragment];
 	}
 });
 
